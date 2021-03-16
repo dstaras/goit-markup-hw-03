@@ -1,0 +1,236 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+:root {
+  --primery-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --primery-gb-color: #ffffff;
+}
+
+/* Header section */
+.header-section {
+  background: var(--primery-gb-color);
+  width: 1600px;
+  height: 80px;
+}
+.logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.web-color {
+  color: var(--accent-color);
+}
+.site-nav {
+  list-style: none;
+}
+.site-nav li {
+  display: inline;
+}
+.site-nav .link.studio {
+  color: var(--accent-color);
+}
+.link {
+  color: var(--primery-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.connect {
+  list-style: none;
+}
+.connect li {
+  display: inline;
+}
+.connect-data {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.connect-data:hover {
+  color: var(--accent-color);
+}
+.connect-data:focus {
+  color: var(--accent-color);
+}
+
+/* Head */
+
+.head {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+.heading {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Main section */
+
+.features {
+  list-style: none;
+}
+.title {
+  color: var(--primery-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--secondary-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+/* Our work */
+.our-work {
+  color: var(--primery-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.work-image li {
+  display: inline;
+}
+
+/* Our team */
+
+.our-team {
+  background-color: #f5f4fa;
+}
+.team {
+  color: var(--primery-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.squad li {
+  list-style: none;
+}
+.worker {
+  color: var(--primery-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.position {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+/* Footer section */
+
+.footer-section {
+  background-color: #2f303a;
+}
+.address {
+  color: var(--primery-gb-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.footer-connect {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.footer-relations li {
+  list-style: none;
+}
+.logo.footer {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+/* Filter section */
+
+.filter-portfolio {
+  list-style: none;
+}
+.filter-portfolio li {
+  display: inline;
+}
+.button-portfolio {
+  text-decoration: none;
+  color: var(--primery-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--primery-gb-color);
+  background-color: var(--accent-color);
+}
+
+/* Projects container section */
+.our-projects li {
+  list-style: none;
+}
+.title-project {
+  color: var(--primery-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.filter-comment {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
