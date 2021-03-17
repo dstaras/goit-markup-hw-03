@@ -1,6 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+  width: 1600px;
+  height: 2349px;
 }
 :root {
   --primery-color: #212121;
@@ -11,11 +22,23 @@ body {
 
 /* Header section */
 .header-section {
+  padding: 0;
   background: var(--primery-gb-color);
   width: 1600px;
   height: 80px;
+  border-bottom: 1px solid #E5E5E5;;
+}
+.header-container {
+  width: 1200px;
+  height: 80px;
+  margin: 0 200px;
+  padding: 0 15px;
 }
 .logo {
+  display: inline-block;
+  margin: 24px 0 0 0;
+  width: 145px;
+  height: 31px;
   color: #000000;
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -28,10 +51,19 @@ body {
   color: var(--accent-color);
 }
 .site-nav {
+  display: inline-block;
   list-style: none;
+  min-width: 294px;
+  height: 16px;
+  margin: 32px 0 0 93px;
+  padding: 0;
 }
 .site-nav li {
   display: inline;
+  margin-right: 50px;
+}
+.site-nav .nav-link:last-child {
+  margin-right: 0;
 }
 .site-nav .link.studio {
   color: var(--accent-color);
@@ -49,9 +81,14 @@ body {
   color: var(--accent-color);
 }
 .connect {
+  display: inline-block;
   list-style: none;
+  width: 307px;
+  height: 16px;
+  margin: 32px 0 0 311px;
+  padding: 0;
 }
-.connect li {
+  .connect li {
   display: inline;
 }
 .connect-data {
@@ -62,23 +99,32 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.connect-data:hover {
-  color: var(--accent-color);
-}
+.connect-data:hover,
 .connect-data:focus {
   color: var(--accent-color);
 }
+.connect-data.mail {
+  margin-right: 40px;
+}
+
+/* Main section */
 
 /* Head */
 
 .head {
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
+  margin: 0;
   background: #2f303a;
 }
+.business-solutions {
+  width: 1200px;
+  height: 600px;
+  margin: 0 200px;
+  padding: 0 15px;
+  }
 .heading {
+  display: inline-block;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -86,6 +132,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  height: 120px;
+  width: 696px;
+  margin: 200px 0 0 252px;
 }
 .button {
   background-color: var(--accent-color);
@@ -93,16 +142,36 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  margin: 30px 0 0 500px;
+  min-width: ;: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
-/* Main section */
+/* Company features */
 
+.company-fearures {
+  width: 1600px;
+  height: 289px;
+  margin: 0;
+  padding: 0;
+}
 .features {
+  width: 1170px;
+  height: 101px;
+  display: flex;
   list-style: none;
+  margin: 94px 200px 0 200px;
+  padding: 0 15px;
+}
+.container {
+  width: 270px;
+  height: 101px;
 }
 .title {
   color: var(--primery-color);
@@ -111,14 +180,30 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 .text {
   color: var(--secondary-color);
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
 }
+
 /* Our work */
+.work-section {
+  width: 1600px;
+  height: 386px;
+  margin-top: 94px;
+}
+.work-container {
+  width: 1170px;
+  height: 386px;
+  margin: 0 200px;
+  padding: 0 15px;
+}
 .our-work {
   color: var(--primery-color);
   font-weight: bold;
@@ -126,23 +211,47 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0 0 50px 0;
+  padding: 0;
 }
-.work-image li {
-  display: inline;
+.work-image {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Our team */
 
 .our-team {
+  width: 1600px;
+  height: 648px;
+  margin-top: 94px;
   background-color: #f5f4fa;
 }
+.team-container {
+  width: 1170px;
+  height: 648px;
+  margin: 94px 200px 0 200px;
+  padding: 0 15px;
+}
 .team {
+  display: inline-block;
+  height: 42px;
+  padding: 0;
+  margin: 94px 0 50px 453px;
   color: var(--primery-color);
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.squad {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 .squad li {
   list-style: none;
@@ -153,18 +262,29 @@ body {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .position {
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* Footer section */
 
 .footer-section {
+  width: 1600px;
+  height: 252px;
   background-color: #2f303a;
+}
+.footer-container {
+  width: 1170px;
+  height: 252px;
+  margin: 0 200px;
+  padding: 0 15px;
+
 }
 .address {
   color: var(--primery-gb-color);
@@ -190,13 +310,42 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.footer-relations {
+  margin: 0;
+  padding: 0;
 }
 
 /* Portfolio */
+
+/* Main section */
+
+.main-section {
+  width: 1600px;
+  height: 1360px;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  width: 1170px;
+  height: 1360px;
+  margin: 94px 200px 0 200px;
+  padding: 0 15px;
+}
+
+
 /* Filter section */
 
 .filter-portfolio {
   list-style: none;
+  width: 611px;
+  height: 54px;
+  display: flex;
+  margin: 94px 0 0 280px;
+  padding: 0;
+  justify-content: space-between;
 }
 .filter-portfolio li {
   display: inline;
@@ -210,6 +359,10 @@ body {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  border: transparent;
+  min-width: 73px;
+  height: 38px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -220,6 +373,13 @@ body {
 /* Projects container section */
 .our-projects li {
   list-style: none;
+}
+.our-projects {
+margin: 34px 0 0 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 .title-project {
   color: var(--primery-color);
@@ -233,4 +393,13 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
+}
+.list-project {
+  border: 1px solid #EEEEEE;
+  margin: 0 0 30px 0;
+}
+.title-project,
+.filter-comment {
+  margin: 0 0 0 24px ;
+  padding: 0;
 }
