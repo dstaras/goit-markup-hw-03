@@ -10,7 +10,6 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
-  width: 1600px;
   height: 2349px;
 }
 :root {
@@ -24,9 +23,8 @@ body {
 .header-section {
   padding: 0;
   background: var(--primery-gb-color);
-  width: 1600px;
   height: 80px;
-  border-bottom: 1px solid #E5E5E5;;
+  border-bottom: 1px solid #e5e5e5;
 }
 .header-container {
   width: 1200px;
@@ -88,7 +86,7 @@ body {
   margin: 32px 0 0 311px;
   padding: 0;
 }
-  .connect li {
+.connect li {
   display: inline;
 }
 .connect-data {
@@ -112,7 +110,6 @@ body {
 /* Head */
 
 .head {
-  width: 1600px;
   height: 600px;
   margin: 0;
   background: #2f303a;
@@ -122,7 +119,7 @@ body {
   height: 600px;
   margin: 0 200px;
   padding: 0 15px;
-  }
+}
 .heading {
   display: inline-block;
   color: #ffffff;
@@ -147,7 +144,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   margin: 30px 0 0 500px;
-  min-width: ;: 200px;
+  min-width: ;
+  :200px ;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -156,7 +154,6 @@ body {
 /* Company features */
 
 .company-fearures {
-  width: 1600px;
   height: 289px;
   margin: 0;
   padding: 0;
@@ -194,7 +191,6 @@ body {
 
 /* Our work */
 .work-section {
-  width: 1600px;
   height: 386px;
   margin-top: 94px;
 }
@@ -224,7 +220,6 @@ body {
 /* Our team */
 
 .our-team {
-  width: 1600px;
   height: 648px;
   margin-top: 94px;
   background-color: #f5f4fa;
@@ -255,6 +250,7 @@ body {
 }
 .squad li {
   list-style: none;
+  background: var(--primery-gb-color);
 }
 .worker {
   color: var(--primery-color);
@@ -275,7 +271,6 @@ body {
 /* Footer section */
 
 .footer-section {
-  width: 1600px;
   height: 252px;
   background-color: #2f303a;
 }
@@ -284,7 +279,6 @@ body {
   height: 252px;
   margin: 0 200px;
   padding: 0 15px;
-
 }
 .address {
   color: var(--primery-gb-color);
@@ -323,7 +317,6 @@ body {
 /* Main section */
 
 .main-section {
-  width: 1600px;
   height: 1360px;
   margin: 0;
   padding: 0;
@@ -334,7 +327,6 @@ body {
   margin: 94px 200px 0 200px;
   padding: 0 15px;
 }
-
 
 /* Filter section */
 
@@ -375,11 +367,11 @@ body {
   list-style: none;
 }
 .our-projects {
-margin: 34px 0 0 0;
-padding: 0;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+  margin: 34px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .title-project {
   color: var(--primery-color);
@@ -395,11 +387,11 @@ justify-content: space-between;
   letter-spacing: 0.03em;
 }
 .list-project {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   margin: 0 0 30px 0;
 }
 .title-project,
 .filter-comment {
-  margin: 0 0 0 24px ;
+  margin: 0 0 0 24px;
   padding: 0;
 }
